@@ -13,7 +13,8 @@ switch (lettre)
 {
 case  'a'/* constant-expression */:
     /* code */
-    {printf(" la lettre est une voyelle %c", lettre);}
+    {printf
+    (" la lettre est une voyelle %c", lettre);}
     break;
 case  'o':
     {printf(" la lettre est une voyelle %c", lettre);}
