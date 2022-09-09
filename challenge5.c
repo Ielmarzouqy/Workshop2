@@ -3,22 +3,30 @@
 
 int main(){
 int i;
-for(int i=1;i<101;i++) 
+
+for(int i=1;i<=100;i++) 
 {
     
-    if (i%3==0)
+    if ((i%3==0) && (i%5==0))
+    {
+        printf("FIZZBUZZ \n");
+    }
+  
+  
+    else if (i%3==0)
   {
-    //Fizz
-    printf("Fizz");
+    //Buzz
+    printf("FIZZ \n");
   }
     else if (i%5==0)
   {
     //Buzz
-    printf("Buzz");
+    printf("BUZZ \n");
   }
+
   else 
   {
-     printf(" \n%d", i);
+     printf(" %d\n", i);
   }
 }
     return 0;
