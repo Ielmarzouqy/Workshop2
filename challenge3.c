@@ -11,9 +11,8 @@ scanf("%d", &b);
 if(a==b){
     printf("%d", (a+b)*3);
 }
-else{
+else {
     printf("%d", a+b);
-    
 }
     return 0;
 
