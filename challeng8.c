@@ -24,8 +24,8 @@ scanf("%d", &b);
 
 *nombres = b;
 *(nombres +1) = a;
-printf("premier nombre  : %d\n", *nombres);
-printf("premier nombre  : %d\n", *(nombres +1));
+printf("donner le nombre 1  : %d\n", *nombres);
+printf("donner le nombre 2  : %d\n", *(nombres +1));
 
     return 0;
-}3
+}
