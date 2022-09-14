@@ -2,7 +2,8 @@
     "files.associations": {
         "challenge7.C": "cpp",
         "challenge9.C": "cpp",
-        "challenge11.C": "cpp"
+        "challenge11.C": "cpp",
+        "challeng12.C": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
